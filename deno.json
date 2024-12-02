@@ -1,0 +1,36 @@
+{
+  "name": "@nounder/effect",
+  "version": "0.0.0-0",
+  "exports": "./src/index.ts",
+  "imports": {
+    "effect/": "./src/",
+    "fast-check": "npm:fast-check@^3.23.1"
+  },
+  "unstable": [
+    "node-globals",
+    "sloppy-imports"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "./types.d.ts"
+    ],
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": false,
+    "noErrorTruncation": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitOverride": false,
+    "noUncheckedIndexedAccess": false,
+    "strictNullChecks": true
+  }
+}
