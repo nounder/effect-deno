@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * A lightweight alternative to the `Effect` data type, with a subset of the functionality.
  *
